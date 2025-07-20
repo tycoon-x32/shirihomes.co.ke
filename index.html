@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shiri Homes Ltd</title>
+  <link rel="icon" href="https://tse1.mm.bing.net/th/id/OIP.Zv3CbZJ1oL2fqYgQMhA4DAHaGG?rs=1&pid=ImgDetMain&o=7&rm=3" type="image/x-icon" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    body {
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-image: url('https://images.pexels.com/photos/8143668/pexels-photo-8143668.jpeg');
+      background-size: cover;
+      background-position: center;
+      padding: 4rem 2rem;
+      text-align: center;
+      color: #fff;
+      position: relative;
+    }
+    .logo-box {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: transform 0.2s ease;
+    }
+    .logo-box:hover {
+      transform: scale(1.05);
+    }
+    .logo-box img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid gold;
+    }
+    .logo-title {
+      color: gold;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .feature {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      max-width: 300px;
+      text-align: center;
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+    .feature:hover {
+      transform: scale(1.03);
+    }
+    .feature img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    .feature img:hover {
+      opacity: 0.8;
+    }
+    .cta {
+      background: url('https://images.pexels.com/photos/4203783/pexels-photo-4203783.jpeg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .cta h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .cta a {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    form {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      padding: 0.75rem 1.5rem;
+      background: #000;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .floating-icons {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .floating-icons a {
+      background: #3b5998;
+      color: #fff;
+      padding: 10px;
+      border-radius: 50%;
+      text-decoration: none;
+      font-size: 1.2rem;
+      text-align: center;
+      transition: background 0.3s;
+    }
+    .floating-icons a:hover {
+      background: #2d4373;
+    }
+    .about {
+      padding: 2rem;
+      text-align: center;
+      background: #fff;
+      margin-top: 3rem;
+    }
+    .about h2 {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo-box">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.Zv3CbZJ1oL2fqYgQMhA4DAHaGG?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Shiri Homes Logo">
+      <span class="logo-title">Shiri Homes</span>
+    </a>
+    <h1>Shiri Homes Ltd</h1>
+    <p>Your Trusted Property Partner</p>
+  </header>
+
+  <section class="section">
+    <h2 style="text-align:center; margin-bottom:2rem;">Our Properties</h2>
+    <div class="features">
+      <div class="feature" onclick="window.open('https://tse4.mm.bing.net/th/id/OIP.4vy4qcKeTD2-qrvVFijMDQHaE7?rs=1&pid=ImgDetMain&o=7&rm=3','_blank')">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.4vy4qcKeTD2-qrvVFijMDQHaE7?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Luxury Villa" />
+        <h3>Luxury Villas</h3>
+        <p>Elegant homes in serene neighborhoods with top-tier finishes.</p>
+      </div>
+      <div class="feature" onclick="window.open('https://tse1.mm.bing.net/th/id/OIP.a6lsoKcMWI2eGMD0Vsg5fAHaE7?rs=1&pid=ImgDetMain&o=7&rm=3','_blank')">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.a6lsoKcMWI2eGMD0Vsg5fAHaE7?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Modern Apartments" />
+        <h3>Modern Apartments</h3>
+        <p>Affordable and stylish living for urban professionals.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Book a Viewing or Consultation</h2>
+    <a href="mailto:shirihomes@email.com">Get in Touch</a>
+  </section>
+
+  <section class="section">
+    <h2 style="text-align:center; margin-bottom:2rem;">Quick Contact Form</h2>
+    <form action="mailto:shirihomes@email.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <div class="about">
+    <h2>About Shiri Homes</h2>
+    <p>We are a Real Estate company that encampasses all your property needs. Residential sales, Rentals, Land & Commercial property for sale/Leasing.</p>
+    <p><strong>Location:</strong> CBD, Nairobi, Kenya</p>
+    <p><strong>Phone:</strong> 0725 894651</p>
+  </div>
+
+  <div class="floating-icons">
+    <a href="https://web.facebook.com/shirihomes/?_rdc=1&_rdr#" target="_blank" title="Facebook">f</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Shiri Homes Ltd. All rights reserved.</p>
+  </footer>
+</body>
+</html>
